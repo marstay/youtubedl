@@ -1,4 +1,4 @@
-module github.com/marstay/youtubedl/v1
+module github.com/marstay/youtubedl/v2
 
 go 1.16
 
