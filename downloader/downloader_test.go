@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/kkdai/youtube/v2"
+	youtube "github.com/marstay/youtubedl/v1"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

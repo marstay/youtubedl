@@ -6,7 +6,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/kkdai/youtube/v2"
+	youtube "github.com/marstay/youtubedl/v2"
 )
 
 // ExampleDownload : Example code for how to use this package for download video.
