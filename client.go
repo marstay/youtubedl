@@ -5,6 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"io"
+	"io/ioutils"
 	"log"
 	"net/http"
 )
@@ -223,5 +224,5 @@ func (c *Client) httpGetBodyBytes(ctx context.Context, url string) ([]byte, erro
 	}
 	defer resp.Body.Close()
 
-	return io.ReadAll(resp.Body)
+	return ioutils.ReadAll(resp.Body)
 }

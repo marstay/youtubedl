@@ -1,7 +1,7 @@
 package youtube
 
 import (
-	"io"
+	"io/ioutils"
 	"testing"
 	"time"
 
@@ -126,7 +126,7 @@ func TestGetStream(t *testing.T) {
 	require.NoError(err)
 	assert.EqualValues(2208750, size)
 
-	data, err := io.ReadAll(reader)
+	data, err := ioutils.ReadAll(reader)
 	require.NoError(err)
 	assert.Len(data, int(size))
 }
