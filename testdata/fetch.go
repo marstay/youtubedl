@@ -1,6 +1,6 @@
 package main
 
-import _ "github.com/kkdai/youtube/v2"
+import _ "github.com/marstay/youtubedl/v2"
 
 func main() {
 }
